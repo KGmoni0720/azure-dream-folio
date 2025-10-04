@@ -8,10 +8,9 @@ import PageTransition from "@/components/PageTransition";
 
 const Home = () => {
   const handleDownloadResume = () => {
-    // In a real app, this would link to an actual PDF file
     const link = document.createElement("a");
     link.href = "/resume.pdf";
-    link.download = "resume.pdf";
+    link.download = "Kumaraguru_Resume.pdf";
     link.click();
   };
 
@@ -48,7 +47,7 @@ const Home = () => {
                 transition={{ delay: 0.5 }}
                 className="text-5xl md:text-7xl font-bold neon-text"
               >
-                Your Name
+                Kumaraguru R
               </motion.h1>
               
               <motion.p
@@ -57,7 +56,7 @@ const Home = () => {
                 transition={{ delay: 0.6 }}
                 className="text-xl md:text-2xl text-muted-foreground"
               >
-                Creative Full-Stack Developer
+                Agricultural Engineering Student & IoT Innovator
               </motion.p>
               
               <motion.p
@@ -66,7 +65,7 @@ const Home = () => {
                 transition={{ delay: 0.7 }}
                 className="text-lg text-muted-foreground max-w-lg"
               >
-                I build immersive, interactive web experiences that blend cutting-edge technology with stunning design.
+                Building smart agricultural solutions with IoT and embedded systems to create a sustainable future for farming.
               </motion.p>
               
               <motion.div

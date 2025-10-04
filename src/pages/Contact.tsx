@@ -40,19 +40,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "contact@example.com",
-      href: "mailto:contact@example.com",
+      value: "guru75468@gmail.com",
+      href: "mailto:guru75468@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+91 6380227742",
+      href: "tel:+916380227742",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Virudhachalam, Tamil Nadu, India",
       href: null,
     },
   ];
@@ -72,7 +72,7 @@ const Contact = () => {
           >
             <h1 className="text-5xl md:text-6xl font-bold neon-text mb-6">Get In Touch</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Have a project in mind? Let's work together to create something amazing
+              Interested in collaboration? Let's work together on innovative agricultural solutions
             </p>
           </motion.div>
 
@@ -188,11 +188,11 @@ const Contact = () => {
                 <h3 className="text-xl font-bold mb-4">Why Work With Me?</h3>
                 <ul className="space-y-3">
                   {[
-                    "5+ years of professional experience",
-                    "Specialized in modern web technologies",
-                    "Fast turnaround and reliable communication",
-                    "Pixel-perfect implementation",
-                    "Performance-optimized solutions",
+                    "Specialized in IoT & agricultural technology",
+                    "Certified drone operator for precision farming",
+                    "Published research in precision agriculture",
+                    "Strong problem-solving & communication skills",
+                    "Passionate about sustainable farming solutions",
                   ].map((item, index) => (
                     <motion.li
                       key={index}

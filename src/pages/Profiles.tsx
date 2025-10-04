@@ -6,56 +6,56 @@ import { Github, Code2, Award, TrendingUp } from "lucide-react";
 const Profiles = () => {
   const profiles = [
     {
-      platform: "GitHub",
-      icon: Github,
-      username: "@yourusername",
-      stats: [
-        { label: "Repositories", value: "150+" },
-        { label: "Contributions", value: "2,500+" },
-        { label: "Stars", value: "500+" },
-        { label: "Followers", value: "1,200+" },
-      ],
-      url: "https://github.com",
-      color: "from-gray-700 to-gray-900",
-    },
-    {
-      platform: "LeetCode",
-      icon: Code2,
-      username: "@yourusername",
-      stats: [
-        { label: "Problems Solved", value: "450+" },
-        { label: "Ranking", value: "Top 5%" },
-        { label: "Contest Rating", value: "1850" },
-        { label: "Badges", value: "25" },
-      ],
-      url: "https://leetcode.com",
-      color: "from-orange-600 to-yellow-600",
-    },
-    {
-      platform: "HackerRank",
+      platform: "Skill India",
       icon: Award,
-      username: "@yourusername",
+      username: "Kisan Drone Operator",
       stats: [
-        { label: "Stars", value: "5 ⭐" },
-        { label: "Badges", value: "30+" },
-        { label: "Rank", value: "Gold" },
-        { label: "Score", value: "2,500+" },
+        { label: "Category", value: "Agriculture" },
+        { label: "Level", value: "Certified" },
+        { label: "Year", value: "2024" },
+        { label: "Status", value: "Active" },
       ],
-      url: "https://hackerrank.com",
-      color: "from-green-600 to-emerald-600",
+      url: "#",
+      color: "from-orange-600 to-red-600",
     },
     {
-      platform: "Codeforces",
-      icon: TrendingUp,
-      username: "@yourusername",
+      platform: "Reliance Foundation",
+      icon: Code2,
+      username: "IoT Network Specialist",
       stats: [
-        { label: "Rating", value: "1650" },
-        { label: "Max Rating", value: "1750" },
-        { label: "Problems", value: "300+" },
-        { label: "Rank", value: "Expert" },
+        { label: "Program", value: "Certificate" },
+        { label: "Domain", value: "IoT" },
+        { label: "Year", value: "2024" },
+        { label: "Status", value: "Completed" },
       ],
-      url: "https://codeforces.com",
-      color: "from-blue-600 to-indigo-600",
+      url: "#",
+      color: "from-blue-600 to-cyan-600",
+    },
+    {
+      platform: "Hewlett Packard (HP)",
+      icon: TrendingUp,
+      username: "Business & Marketing",
+      stats: [
+        { label: "Courses", value: "5+" },
+        { label: "Topics", value: "Marketing" },
+        { label: "Completed", value: "2024" },
+        { label: "Skills", value: "Business" },
+      ],
+      url: "#",
+      color: "from-blue-500 to-indigo-600",
+    },
+    {
+      platform: "ICAR",
+      icon: Award,
+      username: "Faculty Development",
+      stats: [
+        { label: "Program", value: "International" },
+        { label: "Level", value: "Advanced" },
+        { label: "Year", value: "2024" },
+        { label: "Status", value: "Completed" },
+      ],
+      url: "#",
+      color: "from-green-500 to-emerald-600",
     },
   ];
 
@@ -70,9 +70,9 @@ const Profiles = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h1 className="text-5xl md:text-6xl font-bold neon-text mb-6">Coding Profiles</h1>
+            <h1 className="text-5xl md:text-6xl font-bold neon-text mb-6">Certifications & Learning</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              My competitive programming and open-source contributions
+              Professional certifications and courses completed across various domains
             </p>
           </motion.div>
 
@@ -136,7 +136,7 @@ const Profiles = () => {
             ))}
           </div>
 
-          {/* GitHub Contribution Graph Placeholder */}
+          {/* Additional Certifications */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -144,12 +144,28 @@ const Profiles = () => {
             className="mt-12"
           >
             <Card className="p-8 glass">
-              <h3 className="text-2xl font-bold mb-6 text-center">GitHub Contributions</h3>
-              <div className="bg-secondary/30 rounded-lg p-8 flex items-center justify-center min-h-[200px]">
-                <p className="text-muted-foreground text-center">
-                  GitHub contribution graph visualization<br />
-                  <span className="text-sm">(Can be integrated with GitHub API)</span>
-                </p>
+              <h3 className="text-2xl font-bold mb-6 text-center">Additional Certifications</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                {[
+                  { name: "Plant Breeding", org: "Skill India", year: "2024" },
+                  { name: "Cyber Security Awareness", org: "Online Course", year: "2024" },
+                  { name: "Agile Project Management", org: "HP", year: "2024" },
+                  { name: "Social Media Marketing", org: "HP", year: "2024" },
+                  { name: "Selling Online", org: "HP", year: "2024" },
+                  { name: "Resume Writing", org: "Online Course", year: "2024" },
+                ].map((cert, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 0.6 + index * 0.1 }}
+                    className="p-4 rounded-lg bg-secondary/30 border border-border"
+                  >
+                    <p className="font-bold text-primary mb-1">{cert.name}</p>
+                    <p className="text-sm text-muted-foreground">{cert.org}</p>
+                    <p className="text-xs text-muted-foreground mt-1">{cert.year}</p>
+                  </motion.div>
+                ))}
               </div>
             </Card>
           </motion.div>

@@ -7,52 +7,52 @@ import { ArrowRight, Calendar, Clock } from "lucide-react";
 const Articles = () => {
   const articles = [
     {
-      title: "Building Scalable React Applications",
-      excerpt: "Learn best practices for structuring large-scale React applications with modern patterns and architecture.",
-      image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop",
-      date: "March 15, 2024",
+      title: "Advanced IoT-Driven Automated Irrigation System",
+      excerpt: "Research publication on precision agriculture and sustainable water conservation using IoT technology, sensor networks, and automated control systems for modern farming.",
+      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=400&fit=crop",
+      date: "2024",
+      readTime: "15 min read",
+      url: "#",
+    },
+    {
+      title: "Smart Water Management in Modern Agriculture",
+      excerpt: "Workshop insights on drip irrigation systems and smart water management techniques at Rathinam Group of Institution, focusing on water conservation and efficiency.",
+      image: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=800&h=400&fit=crop",
+      date: "2024",
       readTime: "8 min read",
-      url: "https://medium.com",
+      url: "#",
     },
     {
-      title: "Mastering Framer Motion Animations",
-      excerpt: "A comprehensive guide to creating stunning animations in React using Framer Motion library.",
-      image: "https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=800&h=400&fit=crop",
-      date: "March 10, 2024",
+      title: "Tech-Driven Agriculture: Bridging Innovation and Farming",
+      excerpt: "Exploring the intersection of technology and traditional farming practices, discussing how IoT, drones, and automation are revolutionizing agricultural operations.",
+      image: "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=800&h=400&fit=crop",
+      date: "2024",
       readTime: "10 min read",
-      url: "https://dev.to",
+      url: "#",
     },
     {
-      title: "Three.js for Web Developers",
-      excerpt: "Getting started with 3D graphics on the web using Three.js and React Three Fiber.",
-      image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&h=400&fit=crop",
-      date: "March 5, 2024",
-      readTime: "12 min read",
-      url: "https://medium.com",
-    },
-    {
-      title: "TypeScript Tips and Tricks",
-      excerpt: "Advanced TypeScript techniques to write better, more maintainable code in your projects.",
-      image: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800&h=400&fit=crop",
-      date: "February 28, 2024",
-      readTime: "7 min read",
-      url: "https://dev.to",
-    },
-    {
-      title: "Performance Optimization in React",
-      excerpt: "Practical strategies to improve React application performance and reduce bundle size.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
-      date: "February 20, 2024",
-      readTime: "9 min read",
-      url: "https://medium.com",
-    },
-    {
-      title: "Modern CSS Techniques",
-      excerpt: "Exploring CSS Grid, Flexbox, and custom properties to create responsive layouts.",
-      image: "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=800&h=400&fit=crop",
-      date: "February 15, 2024",
+      title: "Actor-Oriented Sustainable Seed System Development",
+      excerpt: "Certificate course insights on sustainable seed systems, focusing on stakeholder engagement and sustainable agricultural practices for improved crop production.",
+      image: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=400&fit=crop",
+      date: "2024",
       readTime: "6 min read",
-      url: "https://dev.to",
+      url: "#",
+    },
+    {
+      title: "IoT Network Design for Agricultural Applications",
+      excerpt: "Comprehensive overview of IoT network architecture specifically designed for agricultural monitoring systems, sensor integration, and data management.",
+      image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&h=400&fit=crop",
+      date: "2024",
+      readTime: "12 min read",
+      url: "#",
+    },
+    {
+      title: "Precision Farming with Drone Technology",
+      excerpt: "Insights from Kisan Drone Operator certification program, covering aerial surveying, crop monitoring, and precision agriculture techniques using UAV technology.",
+      image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=800&h=400&fit=crop",
+      date: "2024",
+      readTime: "9 min read",
+      url: "#",
     },
   ];
 
@@ -67,9 +67,9 @@ const Articles = () => {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h1 className="text-5xl md:text-6xl font-bold neon-text mb-6">Featured Articles</h1>
+            <h1 className="text-5xl md:text-6xl font-bold neon-text mb-6">Publications & Articles</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Insights, tutorials, and thoughts on web development and technology
+              Research publications, workshops, and insights on agricultural technology and innovation
             </p>
           </motion.div>
 

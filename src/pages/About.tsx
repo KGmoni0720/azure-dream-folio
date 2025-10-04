@@ -6,32 +6,53 @@ import { GraduationCap, Briefcase, Award } from "lucide-react";
 const About = () => {
   const experiences = [
     {
-      icon: Briefcase,
-      title: "Senior Full-Stack Developer",
-      organization: "Tech Company",
-      period: "2022 - Present",
-      description: "Leading development of enterprise web applications using React, Node.js, and cloud technologies.",
-    },
-    {
-      icon: Briefcase,
-      title: "Frontend Developer",
-      organization: "Digital Agency",
-      period: "2020 - 2022",
-      description: "Created responsive, animated websites for various clients using modern frontend frameworks.",
-    },
-    {
       icon: GraduationCap,
-      title: "Computer Science Degree",
-      organization: "University Name",
-      period: "2016 - 2020",
-      description: "Graduated with honors, specializing in software engineering and web technologies.",
+      title: "B.Tech Agricultural Engineering (3rd Year)",
+      organization: "Dhanalakshmi Srinivasan College Of Engineering",
+      period: "2022 - Present",
+      description: "Specializing in IoT applications for agriculture, precision farming, and smart irrigation systems.",
     },
     {
       icon: Award,
-      title: "Hackathon Winner",
-      organization: "National Tech Competition",
-      period: "2021",
-      description: "First place for developing an innovative AI-powered web application.",
+      title: "2nd Prize - Sell Your Idea Competition",
+      organization: "RIT",
+      period: "2024",
+      description: "Won 2nd prize for innovative agricultural solution pitch in entrepreneurship competition.",
+    },
+    {
+      icon: Briefcase,
+      title: "IoT Network Specialist Certificate",
+      organization: "Reliance Foundation",
+      period: "2024",
+      description: "Completed comprehensive certificate program in IoT network systems and implementation.",
+    },
+    {
+      icon: Briefcase,
+      title: "Kisan Drone Operator Certification",
+      organization: "Skill India Programme",
+      period: "2024",
+      description: "Certified in agricultural drone operations for precision farming and crop monitoring.",
+    },
+    {
+      icon: Briefcase,
+      title: "Workshops & Training",
+      organization: "Various Organizations",
+      period: "2023 - 2024",
+      description: "Drip Irrigation & Smart Water Management (Rathinam), Tech-driven Agriculture, Business Analysis.",
+    },
+    {
+      icon: GraduationCap,
+      title: "Higher Secondary Education (HSE)",
+      organization: "Mount Park Higher Secondary School",
+      period: "2021 - 2022",
+      description: "Scored 543/600 with strong foundation in science and mathematics.",
+    },
+    {
+      icon: GraduationCap,
+      title: "SSLC",
+      organization: "Sri Ramakrishna Matriculation School",
+      period: "2018 - 2019",
+      description: "Scored 493/500 with excellent academic performance.",
     },
   ];
 
@@ -48,7 +69,7 @@ const About = () => {
           >
             <h1 className="text-5xl md:text-6xl font-bold neon-text mb-6">About Me</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Passionate developer with a love for creating beautiful, functional web experiences
+              Agricultural Engineering student passionate about IoT and sustainable farming solutions
             </p>
           </motion.div>
 
@@ -61,22 +82,23 @@ const About = () => {
           >
             <Card className="p-8 glass col-span-1 flex flex-col items-center text-center">
               <div className="w-32 h-32 rounded-full bg-gradient-cyber mb-4 glow" />
-              <h3 className="text-xl font-semibold mb-2">Your Name</h3>
-              <p className="text-muted-foreground">Full-Stack Developer</p>
+              <h3 className="text-xl font-semibold mb-2">Kumaraguru R</h3>
+              <p className="text-muted-foreground">Agricultural Engineering Student</p>
+              <p className="text-sm text-muted-foreground mt-2">Virudhachalam, Tamil Nadu</p>
             </Card>
 
             <Card className="p-8 glass col-span-2">
               <h3 className="text-2xl font-bold mb-4 text-primary">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I'm a passionate full-stack developer with over 5 years of experience building web applications. 
-                My journey started with a curiosity about how websites work, and it has evolved into a career 
-                creating immersive digital experiences.
+                I'm a passionate Agricultural Engineering student at Dhanalakshmi Srinivasan College of Engineering, 
+                currently in my 3rd year. My journey combines traditional agriculture with cutting-edge technology, 
+                specializing in IoT-driven agricultural solutions and embedded systems.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                I specialize in React, Node.js, and modern web technologies. I love combining cutting-edge 
-                tech with stunning design to create applications that users love. When I'm not coding, 
-                you'll find me exploring new frameworks, contributing to open source, or sharing knowledge 
-                through articles and tutorials.
+                I believe in bridging innovation and farming to create a sustainable future. With expertise in smart 
+                irrigation systems, renewable energy, and precision agriculture, I've developed solutions like RFID 
+                Smart Water Pumps and published research on automated irrigation systems. I'm also a certified Kisan 
+                Drone Operator and IoT Network Specialist, committed to revolutionizing agriculture through technology.
               </p>
             </Card>
           </motion.div>
