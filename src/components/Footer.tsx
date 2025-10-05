@@ -3,7 +3,7 @@ import { Github, Linkedin, Instagram, Youtube, Twitter, Mail } from "lucide-reac
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
+    { icon: Github, href: "https://github.com/KGmoni0720", label: "GitHub" },
     { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
     { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
     { icon: Youtube, href: "https://youtube.com", label: "YouTube" },

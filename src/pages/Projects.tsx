@@ -12,7 +12,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=600&fit=crop",
       tech: ["IoT", "RFID", "Embedded Systems", "Automation"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/KGmoni0720",
     },
     {
       title: "DAIRY FARM MANAGEMENT Web App",
@@ -20,7 +20,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1628088062854-d1870b4553da?w=800&h=600&fit=crop",
       tech: ["Front End Development", "Database", "Web App", "Management System"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/KGmoni0720",
     },
     {
       title: "Soil Sense Web Application",
@@ -28,7 +28,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=600&fit=crop",
       tech: ["Front End", "Data Analysis", "Web App", "AI"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/KGmoni0720",
     },
     {
       title: "Smart Irrigation Assistant",
@@ -36,7 +36,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=800&h=600&fit=crop",
       tech: ["AI", "IoT", "Machine Learning", "Sensors"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/KGmoni0720",
     },
     {
       title: "NDVI-based Rover",
@@ -44,7 +44,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=800&h=600&fit=crop",
       tech: ["Robotics", "NDVI Sensors", "Embedded Systems", "Data Analytics"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/KGmoni0720",
     },
     {
       title: "Water Irrigation by Renewable Source",
@@ -52,7 +52,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=600&fit=crop",
       tech: ["Solar Energy", "IoT", "Renewable Energy", "Automation"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/KGmoni0720",
     },
     {
       title: "Business Analysis and Process Management",
@@ -60,7 +60,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&h=600&fit=crop",
       tech: ["Business Analysis", "Process Management", "Data Analysis", "Strategy"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/KGmoni0720",
     },
   ];
 
