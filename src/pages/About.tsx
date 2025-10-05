@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Card } from "@/components/ui/card";
 import PageTransition from "@/components/PageTransition";
 import { GraduationCap, Briefcase, Award } from "lucide-react";
+import profileImage from "@/assets/profile.jpg";
 
 const About = () => {
   const experiences = [
@@ -81,7 +82,13 @@ const About = () => {
             className="grid md:grid-cols-3 gap-8 mb-16"
           >
             <Card className="p-8 glass col-span-1 flex flex-col items-center text-center">
-              <div className="w-32 h-32 rounded-full bg-gradient-cyber mb-4 glow" />
+              <div className="relative w-32 h-32 mb-4">
+                <img 
+                  src={profileImage} 
+                  alt="Kumaraguru R" 
+                  className="w-full h-full rounded-full object-cover border-2 border-primary glow"
+                />
+              </div>
               <h3 className="text-xl font-semibold mb-2">Kumaraguru R</h3>
               <p className="text-muted-foreground">Agricultural Engineering Student</p>
               <p className="text-sm text-muted-foreground mt-2">Virudhachalam, Tamil Nadu</p>
