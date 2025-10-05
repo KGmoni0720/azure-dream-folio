@@ -118,8 +118,8 @@ const About = () => {
             <Card className="p-8 glass col-span-2">
               <h3 className="text-2xl font-bold mb-4 text-primary">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I'm a passionate Agricultural Engineering student at Dhanalakshmi Srinivasan College of Engineering, 
-                currently in my 3rd year. My journey combines traditional agriculture with cutting-edge technology, 
+                I'm a passionate Agricultural Engineering student at Dhanalakshmi Srinivasan College of Engineering. 
+                My journey combines traditional agriculture with cutting-edge technology, 
                 specializing in IoT-driven agricultural solutions and embedded systems.
               </p>
               <p className="text-muted-foreground leading-relaxed">
