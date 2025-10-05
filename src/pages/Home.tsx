@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import Globe3D from "@/components/Globe3D";
 import ParticleBackground from "@/components/ParticleBackground";
 import PageTransition from "@/components/PageTransition";
+import profileImage from "@/assets/profile.jpg";
 
 const Home = () => {
   const handleDownloadResume = () => {
@@ -32,6 +33,19 @@ const Home = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="space-y-6"
             >
+              <motion.div
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.3 }}
+                className="relative w-32 h-32 mb-4"
+              >
+                <img 
+                  src={profileImage} 
+                  alt="Kumaraguru R" 
+                  className="w-full h-full rounded-full object-cover border-2 border-primary glow"
+                />
+              </motion.div>
+              
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
